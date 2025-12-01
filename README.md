@@ -109,9 +109,5 @@ You can try the hosted version here:
 
 For questions, feedback or contributions, feel free to open an issue or pull request on the repo, or just connect here.
 
----
 
-
-
----
 

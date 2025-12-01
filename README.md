@@ -2,14 +2,22 @@
 
 ## **Overview**
 
-The **AI Lesson Planner** is a streamlined Streamlit application designed to support educators by automating the creation of high-quality instructional materials. 
-Powered by a custom Groq LLM wrapper and LangChain workflows, the tool generates clear learning objectives,
-comprehensive lesson plans, Bloom’s Taxonomy classifications, teaching materials, rubrics, and tailored EdTech recommendations—all from a single topic input.
+The AI Lesson Planner is an interactive web application designed for educators, trainers, instructional designers, and students who need fast, structured, and high-quality learning materials. By leveraging a custom Groq-powered LLM and LangChain pipelines, the app can automatically generate:
 
-A live version is available on Hugging Face Spaces:
+* Learning objectives
+* Detailed lesson plans
+* Bloom’s Taxonomy classifications
+* Teaching materials (worksheets, quizzes, prompts, activities)
+* Assessment rubrics
+* EdTech tool recommendations
+
+
+
+
+
+You can also try a hosted version live on Hugging Face Spaces:
 **[https://huggingface.co/spaces/iRafique/Lesson_planner](https://huggingface.co/spaces/iRafique/Lesson_planner)**
 
----
 
 ## **Key Features**
 
@@ -20,7 +28,7 @@ A live version is available on Hugging Face Spaces:
 * **Rubrics:** Creates clear, practical assessment rubrics.
 * **EdTech Tools:** Recommends tools aligned with the lesson content.
 
----
+
 
 ## **Technology Stack**
 
@@ -29,7 +37,18 @@ A live version is available on Hugging Face Spaces:
 * **LangChain** – Prompt templates and processing pipelines
 * **dotenv** – Environment variable management
 
----
+
+
+## **Project Structure**
+
+```
+├── app.py
+├── README.md
+├── .env
+└── requirements.txt
+```
+
+
 
 ## **Installation & Setup**
 
@@ -49,17 +68,50 @@ A live version is available on Hugging Face Spaces:
    streamlit run app.py
    ```
 
----
+
 
 ## **Usage**
 
 Enter a lesson topic in the sidebar and select an action. The generated content will appear in the output panel, formatted for immediate classroom or planning use.
 
----
+
+
+
+
+## **Known Limitations**
+
+* Requires a valid Groq API key if running locally
+* Long outputs may take some time depending on the model
+* Generation quality depends heavily on prompt design — template refinement may be needed for best results
+
+
+
+## **Future Enhancements**
+
+Potential improvements include:
+
+* PDF export for lesson plans and materials
+* Editable text fields for users to refine LLM outputs
+* Support for multi-topic lesson sequences
+* A persistent project workspace or user accounts
+* Enhanced UI / UX design
+
 
 ## **License**
 
-This project is open for personal, academic, and developmental use. Add your preferred license terms if distributing or deploying publicly.
+This project is provided under an open and modifiable structure. Add your preferred license if distributing publicly.
+
+
+## **Try It Online / Contact**
+
+You can try the hosted version here:
+[**AI Lesson Planner on Hugging Face Spaces**](https://huggingface.co/spaces/iRafique/Lesson_planner)
+
+For questions, feedback or contributions, feel free to open an issue or pull request on the repo, or just connect here.
+
+---
+
+
 
 ---
 

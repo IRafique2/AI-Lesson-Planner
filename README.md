@@ -87,7 +87,6 @@ Enter a lesson topic in the sidebar and select an action. The generated content 
 
 Potential improvements include:
 
-* PDF export for lesson plans and materials
 * Editable text fields for users to refine LLM outputs
 * Support for multi-topic lesson sequences
 * A persistent project workspace or user accounts

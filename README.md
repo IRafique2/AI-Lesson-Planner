@@ -7,16 +7,12 @@ The AI Lesson Planner is an interactive web application designed for educators, 
 * Learning objectives
 * Detailed lesson plans
 * Bloom’s Taxonomy classifications
-* Teaching materials (worksheets, quizzes, prompts, activities)
+* Course Learning Outcomes (CLOs)
+* Teaching materials 
 * Assessment rubrics
 * EdTech tool recommendations
 
 
-
-
-
-You can also try a hosted version live on Hugging Face Spaces:
-**[https://huggingface.co/spaces/iRafique/Lesson_planner](https://huggingface.co/spaces/iRafique/Lesson_planner)**
 
 
 ## **Key Features**
@@ -27,6 +23,7 @@ You can also try a hosted version live on Hugging Face Spaces:
 * **Teaching Materials:** Includes worksheets, quizzes, discussion prompts, PPT outlines, and class activities.
 * **Rubrics:** Creates clear, practical assessment rubrics.
 * **EdTech Tools:** Recommends tools aligned with the lesson content.
+* **Course Learning Outcomes (CLOs)**:enerates measurable, higher-order outcomes mapped to Bloom’s levels for course-level mastery.
 
 
 

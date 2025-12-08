@@ -29,7 +29,7 @@ The AI Lesson Planner is an interactive web application designed for educators, 
 
 ## **Technology Stack**
 
-* **Streamlit** – User interface
+* **GROQ** – User interface
 * **Groq API** – LLM inference via a custom `GroqLLM` wrapper
 * **LangChain** – Prompt templates and processing pipelines
 * **dotenv** – Environment variable management
@@ -62,7 +62,7 @@ The AI Lesson Planner is an interactive web application designed for educators, 
 3. Launch the application:
 
    ```bash
-   streamlit run app.py
+   groq  app.py
    ```
 
 
@@ -101,7 +101,7 @@ This project is provided under an open and modifiable structure. Add your prefer
 ## **Try It Online / Contact**
 
 You can try the hosted version here:
-[**AI Lesson Planner on Hugging Face Spaces**](https://huggingface.co/spaces/iRafique/Lesson_planner)
+[**AI Lesson Planner on Hugging Face Spaces**](https://huggingface.co/spaces/iRafique/AiEducationtoolkit)
 
 For questions, feedback or contributions, feel free to open an issue or pull request on the repo, or just connect here.
 

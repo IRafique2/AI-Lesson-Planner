@@ -1,8 +1,8 @@
-# **AI Lesson Planner**
+# **AI Education Toolkit**
 
 ## **Overview**
 
-The AI Lesson Planner is an interactive web application designed for educators, trainers, instructional designers, and students who need fast, structured, and high-quality learning materials. By leveraging a custom Groq-powered LLM and LangChain pipelines, the app can automatically generate:
+The AI Education Toolkit is an interactive web application designed for educators, trainers, instructional designers, and students who need fast, structured, and high-quality learning materials. By leveraging a custom Groq-powered LLM and LangChain pipelines, the app can automatically generate:
 
 * Learning objectives
 * Detailed lesson plans

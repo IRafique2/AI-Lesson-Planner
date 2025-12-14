@@ -3,4 +3,5 @@ langchain
 langchain-core
 langchain-groq
 requests
-streamlit
+gradio
+reportlab
